@@ -10,6 +10,19 @@ body {
   color: #333;
 }
 
+.suitmedia {
+  filter: brightness(0) invert(1);
+  width: 120px;
+  height: 40px;
+}
+
+
+/* img{
+  filter: brightness(0) invert(1);
+  width: 85px;
+  height: 60px;
+} */
+
 .banner {
   display: flex;
   color: white;
@@ -30,6 +43,7 @@ body {
   position: fixed;
   display: flex;
   top: 0;
+  height: 9vh;
   width: 100%;
   background-color: #ee6325;
   z-index: 1000;
@@ -97,10 +111,6 @@ body {
   pointer-events: none;
 }
 
-.suitmedia {
-  width: 85px;
-  height: 60px;
-}
 
 .tumbal {
   height: 100vh;

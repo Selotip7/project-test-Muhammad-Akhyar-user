@@ -166,9 +166,5 @@ window.addEventListener("scroll", function () {
 
   fetchData();
 
-const proxyImage = (originalUrl) => {
-  const cleanUrl = originalUrl.replace(/^https?:\/\//, ""); 
-  return `https://images.weserv.nl/?url=${cleanUrl}`;
-};
 
 
