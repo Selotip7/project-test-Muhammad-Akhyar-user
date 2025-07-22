@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="banner">
+      <h1>Ideas</h1>
+      <p>Where all our things begin</p>
+    </div>
+    <nav class="navbar" id="navbar">
+      <div class="inner-nav">
+        <div class="img">
+          <img class="suitmedia" src="suitmedia.png" alt="suitmedia" />
+        </div>
+        <div class="nav_ul">
+          <ul>
+            <li><a href="#Work" class="nav-link active">Work</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#Ideas" class="nav-link">Ideas</a></li>
+            <li><a href="#Careers" class="nav-link">Careers</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- card -->
+     <div class="container-main">
+
+         <div class="container">
+             <div class="top-bar">
+                 <div id="showing-text">Loading...</div>
+                 <div>
+                     <label for="show">Show per page:</label>
+                     <select id="show">
+                         <option value="10">10</option>
+                         <option value="20">20</option>
+                         <option value="50">50</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sort">Sort by:</label>
+                        <select id="sort">
+                            <option value="desc">Terbaru</option>
+                            <option value="asc">Terlama</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="card-grid" id="cardContainer"></div>
+                <div class="pagination" id="paginationContainer"></div>
+            </div>
+            
+        </div>
+    <!-- <div class="tumbal"></div> -->
+
+    <script src="java.js"></script>
+  </body>
+</html>
+
+<!-- <div class="content"> -->
+<!-- <section id="Work"><h1>Work</h1><p>Scroll down to hide nav, up to show again.</p></section>
+<section id="about"><h1>About</h1><p>About section content here.</p></section>
+<section id="services"><h1>Services</h1><p>Services section content here.</p></section>
+<section id="Ideas"><h1>Ideas</h1><p>Services section content here.</p></section>
+<section id="services"><h1>Services</h1><p>Services section content here.</p></section>
+<section id="contact"><h1>Contact</h1><p>Contact section content here.</p></section> -->
+<!-- </div>  -->
